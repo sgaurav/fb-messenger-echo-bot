@@ -1,0 +1,25 @@
+{
+  "name": "fb-messenger-echo-bot",
+  "version": "0.0.1",
+  "description": "Facebook messenger echo bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgaurav/fb-messenger-echo-bot.git"
+  },
+  "author": "Gaurav Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgaurav/fb-messenger-echo-bot/issues"
+  },
+  "homepage": "https://github.com/sgaurav/fb-messenger-echo-bot#readme",
+  "dependencies": {
+    "body-parser": "~1.15.0",
+    "compression": "~1.6.1",
+    "express": "~4.13.4",
+    "request": "~2.71.0"
+  }
+}
