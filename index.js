@@ -31,7 +31,7 @@ function receiveMessage(req, res, next){
 	var message_instances = req.body.entry[0].messaging;
 	message_instances.forEach(function(instance){
 		var sender = instance.sender.id;
-		if(instance.message && instance.message.text) {
+		if(instance.message && instance.message.text  && !instance.message.is_echo) {
 			var msg_text = instance.message.text;
 			sendMessage(sender, msg_text, true);
 		}
